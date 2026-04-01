@@ -1,4 +1,4 @@
-FROM php:8.1-apache
+FROM php:8.5-apache
 
 RUN apt-get update && \
     apt-get install -y git zip libpng-dev libzip-dev libssl-dev openssh-client nano npm default-mysql-client
